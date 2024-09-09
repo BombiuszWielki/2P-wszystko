@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <title>T03 - porównanie programowania strukturalnego i obiektowego</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<main>
+    <div id="header">
+        <h1>T03 - porównanie programowania strukturalnego i obiektowego</h1>
+        <h2>Autor: Fabian Latosiński z klasy 2P_1</h2>
+    </div>
+    <hr>
+    <div class="section">
+        <h3>Programowanie strukturalne</h3>
+        <ul>
+            <li>Paradygmat programowania zakładający rozdzielenie funkcjonalności programu na moduły (podprogramy). Komunikują się one ze sobą przez określone interfejsy.</li>
+            <li>Jest rozszerzeniem programowania proceduralnego (poprawa przejrzystości i jakości kodu oraz przyśpieszenie tworzenia oprogramowania).</li>
+        </ul>
+    </div>
+    <hr>
+    <div class="section">
+        <h3>Założenia programowania strukturalnego</h3>
+        <ul>
+            <li>Podzielone bloki kodu mają jeden punkt wejścia (mogą mieć wiele punktów wyjścia)</li>
+            <li>Wykonywanie wyrażeń w określonej kolejności</li>
+            <li>Używanie instrukcji warunkowych (if , if else)</li>
+            <li>Używanie pętli (for, while, do while)</li>
+            <li>Unikanie instrukcji skoku (goto)</li>
+            <li>Unikanie instrukcji break, continue</li>
+        </ul>
+    </div>
+    <hr>
+    <div class="section">
+        <h3>Programowanie obiektowe</h3>
+        <ul>
+            <li>Paradygmat programowania zakładający reprezentację problemów w postaci obiektów, przypisanie im działań (metod), które mogą wykonywać oraz umieszczenie pól, które opisują dany obiekt.</li>
+            <li>Jest to podejście bardziej naturalne dla ludzi, bardziej zgodne z rzeczywistością.</li>
+        </ul>
+    </div>
+    <hr>
+    <div class="section">
+        <h3>Założenia programowania obiektowego</h3>
+        <ul>
+            <li>Abstrakcja</li>
+            <li>Hermetyzacja danych (enkapsulacja)</li>
+            <li>Dziedziczenie</li>
+            <li>Polimorfizm</li>
+        </ul>
+    </div>
+    <hr>
+    <div class="section">
+        <h3>Abstrakcja</h3>
+        <ul>
+            <li>Zredukowanie właściwości opisywanego obiektu do najbardziej podstawowych, ograniczenie zakresu funkcjonalności obiektu do kluczowych dla danego zagadnienia działań.</li>
+            <li>Ukrycie funkcjonalności za interfejsem, uogólnienie implementacji.</li>
+        </ul>
+    </div>
+    <hr>
+    <div class="section">
+        <h3>Enkapsulacja</h3>
+        <ul>
+            <li>Inaczej hermetyzacja danych.</li>
+            <li>Dostęp do składowych jest ograniczony za pomocą dobrze określonego interfejsu, czyli obiekt udostępnia tylko pewien zbiór metod, które są widoczne z zewnątrz i mogą być wywoływane.</li>
+            <li>Dostęp do pól obiektu powinien być realizowany poprzez odpowiednie metody(Settery/gettery) a nie przez bezpośredni dostęp do nich.</li>
+        </ul>
+    </div>
+    <hr>
+    <div class="section">
+        <h3>Dziedziczenie</h3>
+        <p>Mechanizm umożliwiający wywodzenie nowych klas z klas już istniejących, wraz z przejmowaniem ich metod. Dzięki czemu zyskujemy wszystkie już istniejące funkcjonalności, które dodatkowo możemy rozszerzyć lub zmienić.</p>
+    </div>
+    <hr>
+    <div class="section">
+        <h3>Polimorfizm</h3>
+        <p>Mechanizm pozwalający na używanie metod itp. na różny sposób, np. przeciążając metodę toString, aby akceptowała zmienne typu int, float, decimal i każdą z nich konwertowała właściwie do ciągu znakowego.</p>
+    </div>
+    <hr>
+    <div class="section">
+        <h3>Różnice</h3>
+        <ul>
+            <li>W programowaniu strukturalnym mamy podprogramy (funkcje), które odpowiednio ułożone i wywołane tworzą program.</li>
+            <li>Natomiast w p. obiektowym funkcjonalności są przypisane obiektom, zatem trudniej tutaj o pomyłkę np. taką jak przekazanie złej zmiennej do funkcji.</li>
+        </ul>
+    </div>
+</main>
+</body>
+</html>

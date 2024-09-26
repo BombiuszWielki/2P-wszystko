@@ -1,0 +1,57 @@
+
+body{
+    background-color: #ffdbad;
+    font-family: "Cambria Math", "Arial";
+}
+
+main{
+    width: 1000px;
+    margin-inline: auto;
+}
+
+#header{
+    text-align: center;
+    background-color: #ffcb80;
+    text-shadow: red 1pt 1pt;
+    border-radius: 15px;
+    border: black 1px solid;
+}
+
+hr{
+    width: 700px;
+}
+
+th, td{
+    border: black 2px solid;
+}
+
+table{
+    border: black 2px solid;
+}
+
+h3{
+    text-align: center;
+    text-shadow: red 1px 1px;
+    font-size: 23px;
+}
+
+.section{
+    background-color: #ffcb80;
+    border-radius: 15px;
+    padding-block: 10px;
+    margin-block: 20px;
+    border: black 1px solid;
+}
+
+.section, #header{
+    padding-inline: 5px;
+}
+
+ul{
+    margin-left: 75px;
+}
+
+.section img{
+    width: 300px;
+    margin-left: 350px;
+}

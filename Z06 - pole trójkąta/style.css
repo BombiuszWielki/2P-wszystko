@@ -1,0 +1,54 @@
+body{
+    background-color: #ffe9e9;
+    font-family: Verdana;
+}
+
+#header{
+    background-color: #ff5a5a;
+    color: white;
+    border-radius: 10px;
+    text-align: center;
+}
+
+hr{
+    width: 600px;
+}
+
+section{
+    background-color: #ff5a5a;
+    color: white;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 15px;
+}
+
+button{
+    background-color: #cd2eff;
+    color: white;
+    border: 1px black solid;
+    padding: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+input{
+    border-radius: 4px;
+    border: none;
+    padding: 5px;
+}
+
+h1, h2{
+    margin-inline: 10px;
+}
+
+section, #header{
+    border: black 1px solid;
+}
+
+#hello{
+    text-align: center;
+    font-size: large;
+}
+
+a{
+    color: white;
+}

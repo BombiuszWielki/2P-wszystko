@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Zadanie 22_4</title>
+</head>
+<body>
+<script>
+function wyswietl(a, b)
+{
+    if(a>b)
+    {
+        document.write(`<p style='color: green'>${a}</p><br><p style='color: red'>${b}</p>`);
+    }
+    else if(a<b)
+    {
+        document.write(`<p style='color: green'>${b}</p><br><p style='color: red'>${a}</p>`);
+    }
+    else
+    {
+        document.write(`<p style='color: blue'>${a}<br>${b}</p>`);
+    }
+}
+wyswietl(2, 4);
+wyswietl(4, 2);
+wyswietl(5, 5);
+</script>
+</body>
+</html>

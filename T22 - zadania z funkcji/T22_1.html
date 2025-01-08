@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Zadanie 22_1</title>
+</head>
+<body>
+<script>
+
+  /*
+  Napisz funkcję, która dla podanej liczby zwraca (return)
+  jej wartość bezwzględną i zastosuj tę funkcję do wyświetlenia wyniku.
+  Do obliczenia wartości bezwzględnej użyj instrukcji warunkowej
+  (wariant 1) i operatora warunkowego "?" (wariant 2).
+   */
+  function wartosc1(a)
+  {
+    if(a>=0)
+    {
+      return a;
+    }
+    else
+    {
+      return -a;
+    }
+  }
+  document.write(wartosc1(3) + "<br>");
+  document.write(wartosc1(-13) + "<br>");
+
+  ////////////////////////////////////////////////
+
+  function wartosc2(a)
+  {
+    let wynik = (a>=0) ? a : -a;
+    return wynik;
+  }
+
+  document.write(wartosc2(34) + "<br>");
+  document.write(wartosc2(-134) + "<br>");
+</script>
+</body>
+</html>

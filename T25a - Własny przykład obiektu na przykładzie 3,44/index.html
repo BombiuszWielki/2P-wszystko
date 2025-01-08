@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>T25a - Własny przykład obiektu na przykładzie 3.44</title>
+</head>
+<body>
+<script>
+  let osoba =
+          {
+            imie: "Zygmunt",
+            nazwisko: "Kowalski",
+            wiek: 30,
+            praca: "Programista",
+            pokaz: function (){console.log(`Jestem ${this.imie} ${this.nazwisko}`)}
+          }
+  osoba.pokaz();
+</script>
+</body>
+</html>
